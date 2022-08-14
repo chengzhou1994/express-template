@@ -1,4 +1,4 @@
-const db = require('../config/db')
+const db = require('../config/mysql')
 const good = {
   // 查询货物
   getGoodList: (req, res) => {

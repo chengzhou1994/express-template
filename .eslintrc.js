@@ -7,6 +7,7 @@ module.exports = {
     parser: 'babel-eslint',
     sourceType: 'module'
   },
+  extends: ['standard'],
   rules: {
     'no-console': 'off',
     'no-debugger': 'off',
@@ -14,5 +15,5 @@ module.exports = {
     'no-useless-escape': 'off',
     'no-undef': 'off',
     'no-constant-condition': 'off'
-  },
+  }
 }
